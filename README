@@ -1,6 +1,9 @@
-This is the version of Revelio inclusing the port-preservation test for CGN detection. 
+This is the version of Revelio including the port-preservation test for CGN detection. 
 This version is a one-off version of Revelio, and does not include the pathchar algorithm. 
 Revelio receives here as input a unique identifier for the location from where the user is running the test. 
 To run Revelio-on-location and send the results to our test server (located at zompopo.it.uc3m.es), run the following:
 $ sudo bash run_Revelio.sh revelio_on_location [your-location-code]
 
+NOTE: run the command above after you changed to the directory "revelio_on_location"
+
+The location identifier should not be longer than 100 characters.  
