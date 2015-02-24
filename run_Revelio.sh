@@ -53,8 +53,10 @@ fi
 
 # verify if miniupnp is installed
 miniupnp=$(ldconfig -p | grep "miniupnpc")
-#if [ -z "$miniupnp" ]; then
-    
+if [ -z "$miniupnp" ]; then
+  echo "miniupnpc no found; install before re-run" > /dev/stderr;
+  exit 1
+fi  
 
 
 #-----------------------------------------------------------------------------
