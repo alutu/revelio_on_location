@@ -12,7 +12,7 @@ NOTE: run the command above from the directory "revelio_on_location/"
 *The binary depends on the library miniupnpc: http://miniupnp.free.fr/*
 
 To install on Linux/GNU:
-$ sudo apt-get install miniupnpc miniupnpc_i386
+$ sudo apt-get install miniupnpc miniupnpc:i386
 
 You can find two different versions of the binary: 
 - revelio_on_location_x86_64 --> compiled for Linux/GNU for 64bits (x86_64) 
