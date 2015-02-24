@@ -64,8 +64,8 @@ fi
 #result file
 mkdir -p $DIR/results && touch $DIR/results/$boxid
 
-hour=$( date '+%H' )
-day=$( date '+%d' )
+#hour=$( date '+%H' )
+#day=$( date '+%d' )
 
 $DIR/bin/$1 -l $2 >> $DIR/results/$boxid 2> /dev/null
 
